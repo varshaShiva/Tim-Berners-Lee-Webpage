@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+}
+#Picture{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius:50%;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color:beige;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    opacity: 0.84;
+    background: linear-gradient(#ebd913 0%,#eb9113 100%);
+    display:table;
+    width:100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Patua One', cursive;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 250;
+}
+h2{
+    font-size: 25px;
+    line-height: 1.2;
+    font-family: 'Patua One', cursive;
+    font-weight: 250;
+}
+
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size:17px;
+    line-height: 1.3;
+}
+#parrelax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+    font-family: 'Red Rose', cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    Z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: 'Red Rose', cursive;
+    list-style: none;
+}
+.links:hover{
+    background-color: aqua;
+}
+
+
+
+
+
